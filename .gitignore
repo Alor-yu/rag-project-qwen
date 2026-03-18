@@ -1,0 +1,31 @@
+# Python cache/build
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets (keep template only)
+.env
+.env.*
+!.env.example
+
+# Local data/index artifacts
+faiss_index/
+data/*
+!data/.gitkeep
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS/log noise
+.DS_Store
+Thumbs.db
+*.log
